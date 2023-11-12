@@ -1,0 +1,23 @@
+{
+  "name": "sigma-example-load-gexf-file",
+  "version": "0.0.109",
+  "description": "This example loads a GEXF graph file and displays it with a few classic interactive features.",
+  "main": "index.js",
+  "scripts": {
+    "start": "kotatsu serve --typescript ./src/index.ts --public / ./public",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "graphology": "^0.23.2",
+    "graphology-gexf": "^0.9.0",
+    "sigma": "latest"
+  },
+  "devDependencies": {
+    "kotatsu": "^0.22.3",
+    "react-scripts": "1.0.0",
+    "typescript": "4.4.4"
+  }
+}
